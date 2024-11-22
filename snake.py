@@ -2,7 +2,7 @@ from tkinter import *
 import random
 GAME_WIDTH,GAME_HEIGHT,SPEED,SPACE_SIZE,BODY_PARTS=800,800,70,35,3
 SNAKE_COLOR,FOOD_COLOR,BACKGROUND_COLOR='green','red','black'
-
+# print("Made by Abddelrhamn ")
 class Snake:
     def __init__(self):
         self.bodysize=BODY_PARTS
